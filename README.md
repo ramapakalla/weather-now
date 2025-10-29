@@ -1,17 +1,21 @@
-# Weather Now
+# 🌤️ Weather Now
 
-Simple React app that fetches current weather for a city using the Open-Meteo API.
+A simple React + Tailwind app to check current weather conditions using the Open-Meteo API.
 
-## Features
-- City search (uses Open-Meteo geocoding)
-- Current temperature, wind, and weather description
-- Clean responsive UI using Tailwind CSS
+## 🚀 Features
+- Search weather by city name
+- Real-time temperature, wind speed, and conditions
+- Responsive clean UI
+- °C / °F toggle
+- Error and loading states
 
-## Setup
-1. npm install
-2. npm run dev
+## 🛠️ Tech Stack
+React, Tailwind CSS, Axios, Open-Meteo API
 
-Open http://localhost:5173
+## ⚙️ Setup
+1. Clone this repo  
+2. Run `npm install`  
+3. Run `npm run dev`  
 
-## Troubleshooting
-If you see a SyntaxError referencing index.tsx, rename any .tsx files to .jsx or convert the project to TypeScript and add tsconfig.json and the required devDependencies.
+## 🌍 Live Demo
+https://codesandbox.io/p/sandbox/9hf3gq?file=%2Fsrc%2FApp.jsx%3A80%2C5
